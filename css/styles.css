@@ -1,0 +1,277 @@
+
+*{
+      margin:0;
+      padding:0;
+}
+
+.lists{
+font-family: 'Nordea-small-regular';
+    font-size: x-large;
+    margin-top: 20px;
+    padding-left:40px;
+    line-height: 1.8;
+}
+
+.logo{
+    width:90px;
+    float:left;
+    position:center;
+    padding-left:20px; 
+    height:80px
+}
+
+.bar{
+    height:80px;
+    max-width:100%;
+    margin:0px;
+    background-color:black;
+}
+
+.bar a{
+    font-size:14px;
+    padding:20px;
+    transition:all 0.5s;
+    text-decoration: none;
+    color:grey;
+}
+.bar a.current{
+    color:white;
+    font-size:large;
+
+}
+
+.bar a:hover{
+    color:blue;
+
+}
+
+.link{
+    float:right;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.name{
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    transition:all 0.5s;
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.footer{
+    position: relative;
+    background-color: rgb(39, 39, 39);
+    height: 80px;
+    max-width: 100%;
+}
+#footer1{
+    color: #666;
+    float: none !important;
+    text-align: center !important;
+    font-size: 16px;
+}
+.container1{
+    position: relative;
+    text-align: left;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.foot_icon {
+    padding-top:8px;
+    float: none !important;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-right: 5px;
+}
+.foot_icon li {
+    padding-top: 10px;
+    display: inline-block; 
+}
+
+.slider{
+    overflow:hidden;
+    box-shadow: 1px 2px 10px 5px gray;
+
+  
+}
+.container{
+    width:97%;
+    padding:20px;
+}
+.slider figure{
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation: 8s slide infinite;
+}
+
+.slider figure img{
+    float:left;
+    width:20%;
+    height:500px;
+ 
+}
+
+@keyframes slide{
+ 0% {
+     left:0;
+ }
+ 20% {
+     left:0;
+ }
+ 25% {
+    left:-100%;
+}
+45% {
+    left:-100%;
+}
+50% {
+    left:-200%;
+}
+70% {
+    left:-200%;
+}
+
+75% {
+    left:-300%;
+}
+95% {
+    left:-300%;
+}
+100% {
+    left:-400%;
+}
+
+}
+
+h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px;
+    line-height:1.4;
+    letter-spacing:0.5rem;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom: 30px;
+    color:black;
+
+
+}
+
+h2{
+    font-family: "Open Sans";
+    color:black;
+    font-weight: normal;
+    font-style: normal;
+    padding-left:20px;
+    font-size:50px;
+    line-height: 2.0;
+    padding-top: 30px;
+}
+
+p{
+    padding-left:30px;
+    font-size: large;
+    font-family: 'Nordea-small-regular';
+    text-align:left;
+    line-height: 1.6;
+    
+}
+
+
+  .map{
+    text-align: left;
+    position: relative;
+    padding-left: 130px;
+  }
+ 
+
+.back{
+    background-image: url("../img/contact.png");
+    background-size: cover;
+    height:800px;
+    width:100%;
+}
+
+
+.back1{
+    background-image: url("../img/clip.png");
+    height:1000px;
+    width:100%;
+}
+
+.back2{
+    background-image: url("../img/ab.jpg");
+    height:500px;
+    width:100%;
+}
+
+.back3{
+    background-image: url("../img/site.jpg");
+    background-size: cover;
+    height:800px;
+    width:100%;
+}
+
+.site img{
+    height:500px;
+    width:950px;
+    padding-top: 110px;
+    padding-left: 200px;
+    opacity: 0.7;
+}
+
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:40px;
+    line-height:1.4;
+    letter-spacing:0.5rem;
+    text-align:center;
+    margin-bottom: 30px;
+    color:white;
+    text-shadow: rgb(0, 0, 0) 1px 1px 10px;
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:35px;
+    line-height:1.4;
+    letter-spacing:0.5rem;
+    text-align:center;
+    padding-top: 50px;
+    color:white;
+    
+}
+
+
+
+.contact{
+    color:white;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 1.5;
+}
+
+.gallery{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  display:block;
+  width:100%;
+}
+.gallery li{
+  display:inline-block;
+  padding-left:70px;
+}
